@@ -1,0 +1,8 @@
+# Weather app configuration (loaded via SnakeYAML 1.30 - intentionally vulnerable).
+defaultCity: "Roma"
+forecastDays: 7
+temperatureUnit: "celsius"      # celsius | fahrenheit
+windSpeedUnit: "kmh"            # kmh | ms | mph
+language: "it"
+geocodingBaseUrl: "https://geocoding-api.open-meteo.com/v1/search"
+forecastBaseUrl: "https://api.open-meteo.com/v1/forecast"

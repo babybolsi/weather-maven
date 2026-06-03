@@ -1,0 +1,29 @@
+# Maven build output
+target/
+dependency-reduced-pom.xml
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+# Runtime-generated data (H2 DB, favorites XML)
+data/
+
+# Logs / smoke-test artifacts
+*.log
+smoke-out.log
+smoke-err.log
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Kept on purpose (NOT ignored): pom.xml, src/, README.md, CVE-MANIFEST.md, deptree.txt
